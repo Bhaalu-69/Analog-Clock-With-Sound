@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* overflow: hidden; */
 }
 
 body {
@@ -18,8 +19,8 @@ body {
 }
 
 video {
+    overflow: hidden;
     position: absolute;
-    z-index: 1;
 }
 
 #layerAboveVideo {
@@ -27,7 +28,6 @@ video {
     background: rgba(0, 0, 0, 0.5);
     height: 100vh;
     width: 100vw;
-    z-index: 2;
 }
 
 .clock {
@@ -43,7 +43,6 @@ video {
     justify-content: center;
     align-items: center;
     position: relative;
-    z-index: 3;
     transition: all ease 0.4s;
 }
 
@@ -83,6 +82,8 @@ video {
     word-spacing: 1rem;
     font-size: 0.8rem;
     padding: 0.1875rem 0.5rem;
+    padding-left: 0.8rem;
+    align-self: center;
 }
 
 .needle {
@@ -92,10 +93,9 @@ video {
 }
 
 .needle span {
+    position: absolute;
     border-radius: 0.8125rem;
     width: var(--w);
     height: var(--h);
     background-color: var(--clr);
-    position: absolute;
-
 }
