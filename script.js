@@ -1,7 +1,6 @@
 
 
-function show_clock(){
-    let sound = new Audio('sound.mp3');
+async function show_clock(){
     
     let h = document.getElementsByClassName("hr")[0];
     let m = document.getElementsByClassName("mn")[0];
@@ -17,7 +16,8 @@ function show_clock(){
     m.style.transform = `rotate(${6 * minutes}deg)`;
     s.style.transform = `rotate(${6 * seconds}deg)`;
     
-    sound.play();
+    let sound = new Audio('sound.mp3');
+    await sound.play();
 }
 
 setInterval(show_clock, 1000);
