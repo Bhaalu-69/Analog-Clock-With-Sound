@@ -10,7 +10,7 @@ https://github.com/theprinceraj/Analog-Clock-With-Sound/assets/116755566/669b93b
 
 1. Clone the Repository:
    First, open your terminal or command prompt and navigate to the directory where you want to clone the repository. Then, run the following command to clone the repository:
-   `git clone https://github.com/theprinceraj/Analog-Clock-With-Sound.git`
+   ```git clone https://github.com/theprinceraj/Analog-Clock-With-Sound.git```
 2. Navigate to the Project Directory:
    Change your current working directory to the newly cloned project folder:
    `cd Analog-Clock-With-Sound`
