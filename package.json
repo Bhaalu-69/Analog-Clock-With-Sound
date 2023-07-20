@@ -1,0 +1,22 @@
+{
+  "name": "analog-clock-with-sound",
+  "version": "1.0.0",
+  "description": "Analog Clock with Sound",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theprinceraj/Analog-Clock-With-Sound.git"
+  },
+  "author": "Prince Raj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theprinceraj/Analog-Clock-With-Sound/issues"
+  },
+  "homepage": "https://github.com/theprinceraj/Analog-Clock-With-Sound#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
