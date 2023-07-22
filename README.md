@@ -3,7 +3,7 @@
 A clean and good-looking analog clock with second-hand sound effects.
 
 # 📺 Preview
-
+The video experiences lag during recording only, not the webpage itself.
 https://github.com/theprinceraj/Analog-Clock-With-Sound/assets/116755566/669b93b6-fd38-480e-ae46-e8e3544a2764
 
 # Complete Installation and Usage
